@@ -20,4 +20,4 @@ from abstract_flask import *
 from abstract_filepaths import *
 from abstract_flask import main_flask_start
 def login_app(allowed_origins=[],name="abstract_logins"):
-    return get_Flask_app(name=name, bp_list=bp_list, allowed_origins=ALLOWED_ORIGINS)
+    return get_Flask_app(name=name, bp_list=bp_list, allowed_origins=allowed_origins)

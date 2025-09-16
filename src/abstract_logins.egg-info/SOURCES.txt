@@ -9,7 +9,6 @@ src/abstract_logins.egg-info/dependency_links.txt
 src/abstract_logins.egg-info/requires.txt
 src/abstract_logins.egg-info/top_level.txt
 src/abstract_logins/app/__init__.py
-src/abstract_logins/app/abstract_logins_flask.py
 src/abstract_logins/app/routes.py
 src/abstract_logins/app/endpoints/__init__.py
 src/abstract_logins/app/endpoints/imports.py
