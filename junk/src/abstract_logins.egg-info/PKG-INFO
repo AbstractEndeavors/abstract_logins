@@ -1,0 +1,94 @@
+Metadata-Version: 2.4
+Name: abstract_logins
+Version: 0.0.0.24
+Summary: The `abstract_apis` module is designed to facilitate HTTP requests in Python applications, particularly those that require handling JSON data, dealing with custom API endpoints, and parsing complex nested JSON responses. The module simplifies request handling by abstracting away common tasks such as header management, URL construction, and response parsing.
+Home-page: https://github.com/AbstractEndeavors/abstract_logins
+Author: putkoff
+Author-email: partners@abstractendeavors.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: abstract_utilities
+Requires-Dist: abstract_security
+Requires-Dist: abstract_flask
+Requires-Dist: psycopg2
+Requires-Dist: abstract_database
+Requires-Dist: abstract_ai
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Unknown Package (vUnknown Version)
+
+No description available
+
+## Installation
+
+```bash
+pip install Unknown Package
+```
+
+## Dependencies
+
+None
+
+## Modules
+
+### src/abstract_apis/async_make_request.py
+
+Description of script based on prompt: You are analyzing a Python script 'async_make_requ (mock response)
+
+### src/abstract_apis/make_request.py
+
+Description of script based on prompt: You are analyzing a Python script 'make_request.py (mock response)
+
+### src/abstract_apis/api_tests/solana/body_get.py
+
+Description of script based on prompt: You are analyzing a Python script 'body_get.py' lo (mock response)
+
+### src/abstract_apis/api_tests/solana/get_api_window.py
+
+Description of script based on prompt: You are analyzing a Python script 'get_api_window. (mock response)
+
+### src/abstract_apis/api_tests/solana/solana_rpc_client.py
+
+Description of script based on prompt: You are analyzing a Python script 'solana_rpc_clie (mock response)
+
+### src/abstract_apis/abstract_api_calls.py
+
+Description of script based on prompt: You are analyzing a Python script 'abstract_api_ca (mock response)
+
+### src/abstract_apis/api_tests/solana/variables.py
+
+Description of script based on prompt: You are analyzing a Python script 'variables.py' l (mock response)
+
+### src/abstract_apis/rpcCalls.py
+
+Description of script based on prompt: You are analyzing a Python script 'rpcCalls.py' lo (mock response)
+
+### src/abstract_apis/dbQuery.py
+
+Description of script based on prompt: You are analyzing a Python script 'dbQuery.py' loc (mock response)
+
+### src/abstract_apis/request_utils.py
+
+Description of script based on prompt: You are analyzing a Python script 'request_utils.p (mock response)
+
+### src/abstract_apis/__init__.py
+
+Description of script based on prompt: You are analyzing a Python script '__init__.py' lo (mock response)
+

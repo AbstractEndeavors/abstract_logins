@@ -1,0 +1,3 @@
+2025-08-17 11:04:24,222 GET /api/endpoints form={} files=[]
+2025-08-17 11:04:26,565 GET /api/secure-files/list form={} files=[]
+2025-08-17 11:04:29,492 GET /api/endpoints form={} files=[]

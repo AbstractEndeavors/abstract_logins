@@ -1,0 +1,6 @@
+abstract_utilities
+abstract_security
+abstract_flask
+psycopg2
+abstract_database
+abstract_ai
