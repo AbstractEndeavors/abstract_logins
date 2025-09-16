@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: abstract_logins
-Version: 0.0.0.29
+Version: 0.0.0.30
 Summary: The `abstract_apis` module is designed to facilitate HTTP requests in Python applications, particularly those that require handling JSON data, dealing with custom API endpoints, and parsing complex nested JSON responses. The module simplifies request handling by abstracting away common tasks such as header management, URL construction, and response parsing.
 Home-page: https://github.com/AbstractEndeavors/abstract_logins
 Author: putkoff
