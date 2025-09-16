@@ -72,3 +72,4 @@ src/abstract_logins/app/imports/src/paths/__init__.py
 src/abstract_logins/app/imports/src/paths/base_dir.py
 src/abstract_logins/app/imports/src/paths/media_dir.py
 src/abstract_logins/app/imports/src/paths/users_dir.py
+src/abstract_logins/app/templates/__init__.py
