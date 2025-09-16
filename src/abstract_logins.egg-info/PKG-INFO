@@ -1,0 +1,32 @@
+Metadata-Version: 2.4
+Name: abstract_logins
+Version: 0.0.0.28
+Summary: The `abstract_apis` module is designed to facilitate HTTP requests in Python applications, particularly those that require handling JSON data, dealing with custom API endpoints, and parsing complex nested JSON responses. The module simplifies request handling by abstracting away common tasks such as header management, URL construction, and response parsing.
+Home-page: https://github.com/AbstractEndeavors/abstract_logins
+Author: putkoff
+Author-email: partners@abstractendeavors.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: abstract_utilities
+Requires-Dist: abstract_security
+Requires-Dist: abstract_flask
+Requires-Dist: psycopg2
+Requires-Dist: abstract_database
+Requires-Dist: abstract_ai
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
