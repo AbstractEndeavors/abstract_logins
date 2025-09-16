@@ -1,2 +1,2 @@
 from .app import *
-from .abstract_login_flask import login_app
+from .abstract_logins_flask import login_app
