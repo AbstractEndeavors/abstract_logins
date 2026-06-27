@@ -1,0 +1,51 @@
+# /var/www/abstractendeavors/secure-files/big_man/flask_app/login_app/functions/query_utils.py
+
+from abstract_database import *
+import psycopg
+from psycopg.rows import dict_row
+from abstract_utilities import initialize_call_log
+
+# Initialize connectionManager once (using your .env path if needed)
+
+
+
+def get_cur_conn(use_dict_cursor=True):
+    """
+    Get a database connection and a RealDictCursor.
+    Returns:
+        tuple: (cursor, connection)
+    """
+    conn = connectionManager().get_db_connection()
+    cur = conn.cursor(row_factory=dict_row) if use_dict_cursor else conn.cursor()
+    return cur, conn
+
+
+# -----------------------------
+# SELECT helpers
+# -----------------------------
+def select_all(query: str, *args):
+    """Run SELECT returning all rows."""
+    cur, conn = get_cur_conn()
+    try:
+        cur.execute(query, args) if args else cur.execute(query)
+        return cur.fetchall()
+    finally:
+        cur.close()
+        conn.close()
+
+
+def select_distinct_rows(query: str, *args):
+    """Run SELECT returning all rows as list[dict]."""
+    return select_all(query, *args)
+
+
+def select_rows(query: str, *args):
+    """Run SELECT returning one row (or None)."""
+    cur, conn = get_cur_conn()
+    try:
+        cur.execute(query, args) if args else cur.execute(query)
+        row = cur.fetchone()
+        return row if row else []
+    finally:
+        cur.close()
+        conn.close()
